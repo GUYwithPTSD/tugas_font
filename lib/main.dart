@@ -9,7 +9,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: const HomePage());
+    return MaterialApp(
+      title: "breakfast UI",
+      theme: ThemeData(useMaterial3: true, fontFamily: "Roboto"),
+      home: const HomePage(),
+    );
   }
 }
 

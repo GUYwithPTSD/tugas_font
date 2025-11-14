@@ -87,7 +87,7 @@ flutter:
           weight: 100
         - asset: assets/fonts/Roboto-ThinItalic.ttf
           style: italic
-  uses material design: true
+  # uses material design: true
   # fonts:
   #   - family: Schyler
   #     fonts:
