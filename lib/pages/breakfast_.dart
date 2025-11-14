@@ -15,6 +15,21 @@ class Breakfast extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
+        backgroundColor: Colors.white,
+        leading: GestureDetector(
+          onTap: () {},
+          child: Container(
+            width: 32,
+            height: 32,
+            margin: EdgeInsets.all(10),
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(10),
+            ),
+            // child:
+          ),
+        ),
       ),
     );
   }
